@@ -1,4 +1,4 @@
-# Citation Tool Test (local web app)
+# Citation Tool Test (static-file web app)
 
 You can learn more about why this exists here: [Algos, bias, due process, & you](https://suffolklitlab.org/algos-bias-due-process-you/). 
 
