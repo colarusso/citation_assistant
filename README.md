@@ -20,13 +20,9 @@ All authorities/cases are **fictionalized** for teaching purposes.
   Phase 1: very reliable assistant
   Phase 2: competition pressure increases
   Phase 3: domain shift (authority weight / jurisdiction)
+- You can have studets download their results as a `.json` file and share it with you. You can then drag and drop these files into the dashboard tool (available at `dashboard/index.html`) to look at the results
 
-## Files
-- index.html
-- styles.css
-- app.js
-- items.json
-
-
-## Instructor item bank check
+## Quality checks
 Open `check.html` (served via a local server) to review and edit `items.json`, then export a new `items.json`.
+
+Append a `#test` to the `index.html` page to turn on output in the browser’s console log. This is intended to help perform quality checks of the assistant in use and confirm expected behavior (i.e., it let your see what the tool considers ground truth so you can compare it with the on-screen output). 
